@@ -25,7 +25,7 @@ const PlatformIconList = ({ platforms }) => {
     web: BsGlobe,
   };
   return (
-    <HStack mt="10px">
+    <HStack>
       {platforms &&
         platforms.map((platform) => (
           <Icon color="gray.500" as={iconMap[platform.slug]} />
